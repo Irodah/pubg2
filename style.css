@@ -1,0 +1,239 @@
+@font-face {
+    font-family: "PoorStory";
+    src: url(fonts/PoorStory-Regular.ttf) format("truetype");
+}
+@font-face {
+    font-family: "Asap Condensed";
+    src: url(fonts/AsapCondensed-Regular.ttf) format("truetype");
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    transition: all .3s;
+    font-family: "PoorStory";
+}
+.container {
+    width: 1500px;
+    height: 2500px;
+    border: 1px solid red;
+    margin: 10px;
+   
+}   
+.row  {
+    width: 1500px;
+    height: 700px;
+    background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(img/pubg__2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header  {
+    width: 1500px;
+    position: fixed;
+    background-color: rgb(120, 120, 120);
+
+}
+.logo {
+    margin: 10px 0 0 250px;
+    float: left;
+    cursor: pointer;
+}
+.header  img{
+    width: 50px;
+
+}
+.list_links {
+    float: right;
+    margin-right: 250px;
+    
+}
+.list__first {
+    list-style: none;
+    text-align: center;
+}
+.list__first li {
+    width: 150px;
+    float: left;
+    position: relative;
+}
+.list__first li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 14px;
+    font-family: "Arial";
+    text-align: center;
+    line-height: 60px;
+}
+.list__first li:hover {
+    background-color: rgb(255, 53, 22);
+    color: #fff;
+}
+
+.list__first li:hover .list__second {
+    display: block;
+}
+
+.list__second {
+    list-style: none;
+    display: none;
+    width: 100px;
+    position: absolute;
+}
+.list__second li {
+    display: block;
+    background-color: rgb(91, 88, 88.6);
+
+}
+.list__second li a {
+    display: block;
+
+}
+.list__second li:hover .list__three {
+    display: block;
+}
+.list__three {
+    list-style: none;
+    display: none;
+    position: absolute;
+    width: 100px;
+    left: 151px;    
+}
+.list__second li {
+    background-color: rgb(91, 88, 88.6);
+}
+.list__second li:hover {
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    /* background-color: rgb(91, 88, 88.6); */
+}
+.list__three{
+    left: 101%;
+    top: 0;
+}
+
+.content img{
+    width: 300px;
+    margin: 160px 300px 0 0;
+    display: block;
+    float: right;
+}
+.content a {
+    text-decoration: none;
+    color: #fff;
+    background-color: rgb(249, 33, 0);
+    padding: 10px 70px;
+    font-size: 20px;
+    margin-top: 50px;
+    display: inline-block;
+}
+.text__pubg {
+    float: left;
+    width: 550px;
+    height: 300px;
+    margin: 160px 0 0 200px;
+}
+.text__pubg p {
+    color: #fff;
+    font-size: 25px;
+    font-family: "PoorStory";
+}
+
+.content a:hover {
+    background-color: rgb(255, 78, 50);
+}
+
+.about {
+    /* width: 500px; */
+    height: 400px;
+    /* border: 1px solid red; */
+    background-color: rgb(229, 229, 229);
+}
+.about__cards {
+    /* width: 500px; */
+    text-align: center;
+    margin: 0 70px 70px 0 70px;
+}
+.cards__title {
+    font-size: 30px;
+}
+.cards__title h1 {
+    padding-top: 50px;
+    text-align: center;
+}
+.cards__itms {
+    margin-top: 30px;
+    font-size: 20px;
+}
+.cards__itms p{
+    margin: 50px;
+    font-size: 20px;
+}
+.pubg__avatars {
+    text-align: center;
+    /* height: 500px; */
+}
+.pubg__avatars h1 {
+    margin-top: 50px;
+    font-size: 40px;
+}
+.avatars__itms {
+    padding: 20px 0 0 30px;
+    margin: 20px 40px 0 40px;
+}
+.avatars__img {
+    float: left;
+    margin: 15px;
+}
+.avatars__img img {
+    width: 300px;
+}
+.avatars__img img:hover {
+    box-shadow: 0 0 20px 3px rgb(255, 53, 22);
+}
+
+
+
+
+.up {
+    position: fixed;
+    width: 80px;
+    height: 80px;
+    bottom: 50px;
+    left: 1360px;
+    background-color: rgb(255, 0, 0);
+    border-radius: 100px;
+    border: 1px solid rgb(255, 0, 0);
+    transition: all .3s;
+}
+
+.pubg__avatars__cloth {
+    /* margin-top: 250px; */
+    padding:  0 20px;
+    height: 600px;
+    /* border: 1px solid rgb(0, 55, 255); */
+    text-align: center;
+}
+.pubg__avatars__cloth h1 {
+    font-size: 40px;
+    margin: 30px 0;
+}
+.cloth__cards {
+}
+.cloth__itms {
+    float: left;
+}
+.cloth__itms img {
+    width: 200px;
+    margin: 20px;
+}
+
+.up svg {
+    position: absolute;
+    left: 15px;
+    top: 18px;
+    color: #fff;
+}
+.clear   {
+    clear: both;
+}
